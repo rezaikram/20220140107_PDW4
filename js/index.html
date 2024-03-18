@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praktikum PAW</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+  <div class="container">
+    <div class="login">
+      <!-- Membuat form login -->
+      <form action="">
+        <h1>Login</h1>
+        <label for="Username">Username</label>
+        <input type="text"/>
+        <label for="password">password</label>
+        <input type="password"/>
+        <button type="button" onclick="login()">Login</button>
+      </form>
+    </div>
+    <div class="right">
+      <img src="/assets/download.jpeg" class="img"/>
+      <p class="date" id="Date"></p>
+      <!-- Membuat paragraf -->
+      <h2>Praktikum PWD4</h2>
+      <p class="paraf">
+        New Zealand Package Tours - Special Rates in New Zealand AdBest Price Guarantee In New Zealand. Book Now & Pay Later With Agoda 23 Million+ Customers · Easy & Fast Booking · 63,000 Cities Worldwide</p>
+      <script>
+        let tanggal = new Date();
+        document.getElementById("Date").innerHTML = tanggal;
+      </script>
+    </div>
+  </div>
+</body>
+</html>
